@@ -31,6 +31,7 @@
   git:
     repo: "{{ git_repo }}"
     dest: /tmp/awx
+    version: 17.1.0
     force: yes
     
 - name: 'Configura Arquivo de inventário'
