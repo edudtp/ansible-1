@@ -11,5 +11,5 @@
     password: "{{ dbpass }}"
     priv: 'wp_db_prd.*:ALL,GRANT'
     host: "%"
-    state: absent
+    state: present
   when: ansible_facts['distribution'] == "CentOS"
