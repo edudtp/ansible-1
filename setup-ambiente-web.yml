@@ -1,4 +1,4 @@
-- hosts: ansibleserver
+- hosts: dbserver
   become: yes
 #  user: adminlx
   roles:
