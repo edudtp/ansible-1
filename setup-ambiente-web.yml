@@ -1,6 +1,6 @@
-- hosts: {{ inventario }}
+- hosts: "{{ inventario }}"
   become: yes
-#  user: adminlx
+#  user: adminlxS
   roles:
   - { role: install-db, tags: ["install_db"]}
   - { role: install-wp, tags: ["install_wp"]}
