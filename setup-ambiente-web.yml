@@ -1,4 +1,4 @@
-- hosts: dbserver
+- hosts: {{ inventario }}
   become: yes
 #  user: adminlx
   roles:
